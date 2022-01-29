@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Marathon Registration
+        </title>
+        <link href="RegistrationForm.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="/userLogin">
+            <!-- User name -->
+            <p>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="firstname" required>
+            </p>
+            <p>
+                <label for="lname">last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="lastname" required>
+            </p>
+            <!-- Select a Race -->
+            <p>Select a Race:</p>
+                <div>
+                <input type="radio" id="5k" name="race" value="funRun"
+                        checked>
+                <label for="funRun">funRun 5k</label>
+                </div>
+                <div>
+                <input type="radio" id="halfMarathon" name="race" value="halfMarathon">
+                <label for="halfMarathon">halfMarathon</label>
+                </div>
+                <div>
+                <input type="radio" id="FullMarathon" name="race" value="FullMarathon">
+                <label for="FullMarathon">FullMarathon</label>
+                </div>
+            <!-- email -->
+            <p>
+                <label for="mail">email</label>
+                <input type="text" name="mail">
+            </p>
+            <!-- Password -->
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </p>
+            <!-- Select age group -->
+            <p>
+            <label for="age-select">Select a age group:</label>
+
+            <select name="age-grp" id="age-select">
+                <option value="">--Please choose an option--</option>
+                <option value="under18">under 18</option>
+                <option value="19to30">18-30</option>
+                <option value="31to50">31-50</option>    
+            </select>
+            </p>
+            <!-- <p>
+                <label for="date">date of birth</label>
+                <input type="date" name="date">
+            </p>
+            <p>
+                <label for="Number">Number</label>
+                <input type="number" name="Number">
+            </p> -->
+          <button>Register</button>  
+        </form>
+        <!-- <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <button>Search</button>
+        </form> -->
+    </body>
+</html>

@@ -1,0 +1,10 @@
+section{
+    background-color: palevioletred;
+    height: 500px;
+    width: 500px;
+}
+.one{
+    width: 50%;
+    height: 50%;
+    background-color: peru;
+}

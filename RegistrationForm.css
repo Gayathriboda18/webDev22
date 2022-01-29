@@ -1,0 +1,6 @@
+/* Selectors examples */
+/* pseudo classes */
+button:hover{
+    background-color:aqua;
+    color:black;
+}
