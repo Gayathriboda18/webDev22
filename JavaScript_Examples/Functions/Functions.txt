@@ -1,0 +1,11 @@
+//-----------------FUNCTIONS---------------------------//
+
+Define a normal function:
+
+    function functionName(){
+        ________
+        _________
+        ______
+    }
+
+    functionName() // to run
