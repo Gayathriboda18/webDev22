@@ -19,7 +19,7 @@ person['academics'] = "Average";
 //Change/update values 
 person['name'] = "Jess";
 person.age = "20";
-//------------------------------------ EXAMPLE-----------------------------------------------//
+//e.g.----------------------------//
 const restaurant = {
     name: 'Ichiran Ramen',
     address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,

@@ -1,5 +1,13 @@
 //-----------------FUNCTIONS---------------------------//
 
+//................ better comments..............//
+//todo
+//?
+//*
+//!
+//desc
+//e.g. 
+
 Define a normal function:
 
     function functionName(){
@@ -9,3 +17,13 @@ Define a normal function:
     }
 
     functionName() // to run
+
+Arguments:
+
+    function functionName(Arg){
+        ________
+        _________
+        ______
+    }
+
+    functionName(value) // to run
