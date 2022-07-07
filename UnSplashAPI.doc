@@ -1,0 +1,6 @@
+Goto upsplash dev's account
+1. Your Apps -> New Application
+2. After creating New Application, you get 'Access Key' and 'Secret Key'
+3. use 'Access Key' in Postman
+client_id : Paste the 'Access Key'
+GET : https://api.unsplash.com/search/photos?query=blackandwhitephotography?&client_id=bN8jDS2sHfXtmbJidxMQOYS9ZlGW4sI1CZIqvPrmFkc

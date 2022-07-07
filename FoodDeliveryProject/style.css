@@ -1,0 +1,15 @@
+/* CSS Reset*/ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    height: 56px;
+    width:20px
+}

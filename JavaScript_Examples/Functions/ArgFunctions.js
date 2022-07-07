@@ -52,9 +52,15 @@ function lastElement(ar) {
     if (ar.length() == '0') {
         return null;
     }
-    return ar.splice(-1).pop()
+    return ar.splice(-1).pop() 
 }
 
+function lastElement(test) {
+if (test.length == 0)
+    return null;
+else
+    return test[test.length - 1];
+}
 // //e.g. Return 1st letter of string Capitalize
 
 // function capitalize(word){
@@ -76,14 +82,34 @@ function lastElement(ar) {
 
 // sumArray([2, 4, 56, 6]);
 
-//todo : Solve this problem
+//e.g. Return weekDAY
+//Solution 1 
+const daysArray= {1:'Monday', 2:'Tuesday', 3:'Wednesday', 4:'Thursday', 5:'Friday', 6:'Saturday',7:'Sunday'};
 
 function returnDay(number){
-    const daysArray= {1:'Monday', 2:'Tuesday', 3:'Wednesday', 4:'Thursday', 5:'Friday', 6:'Saturday',7:'Sunday'};
     if(number<1 || number >7){
-        console.log("null");
+        return null;
     }
     else{
      return daysArray[number];   
     }
 }
+
+//Solution 2
+// const weekDAY = new Array(7);
+// weekDAY[1] = 'Monday' ;
+// weekDAY[2] = 'Tuesday';
+// weekDAY[3] = 'Wednesday';
+// weekDAY[4] = 'Thursday';
+// weekDAY[5] = 'Friday';
+// weekDAY[6] = 'Saturday';
+// weekDAY[7] = 'Sunday';
+
+// function returnDay(x){
+//   if(x < 1 || x > 7) {
+//     return null;
+//   }
+//   else {
+//     return weekDAY[x];
+//   }
+// }
