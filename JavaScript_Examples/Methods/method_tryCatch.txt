@@ -1,0 +1,7 @@
+Note: All methods are functions but not all functions are methods
+
+// 'This' keyword
+1. used to access object in method 
+
+//TryAndCatch method
+
