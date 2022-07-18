@@ -21,9 +21,11 @@ const fullNames = [{ first: 'Albus', last: 'Dumbledore' },
 
 //e.g. Returns First names 
 const firstNames = fullNames.map(function(fname){
-    return fname.first;
+    return fname.first
 })
 // ['Albus', 'Harry', 'Hermione', 'Ron', 'Rubeus', 'Minerva', 'Severus']
+//e.g Using arrow function
+const actual = fullNames.map(fn => fn.first);  
 
 //e.g. Returns full name 
 const Names = fullNames.map(function(fname){
